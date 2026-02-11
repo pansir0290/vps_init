@@ -20,6 +20,8 @@
 
 ```bash
 wget -N [https://raw.githubusercontent.com/pansir0290/vps_init/main/init.sh](https://raw.githubusercontent.com/pansir0290/vps_init/main/init.sh) && chmod +x init.sh && ./init.sh
+```
 或者
+
 ```bash
 curl -L [https://raw.githubusercontent.com/pansir0290/vps_init/main/init.sh](https://raw.githubusercontent.com/pansir0290/vps_init/main/init.sh) -o init.sh && chmod +x init.sh && ./init.sh
