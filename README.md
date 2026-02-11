@@ -18,10 +18,6 @@
 
 在你的 VPS 终端（root 用户）复制并执行以下命令：
 
-```bash
-wget -N (https://raw.githubusercontent.com/pansir0290/vps_init/main/init.sh) && chmod +x init.sh && ./init.sh
-```
-或者
 
 ```bash
-curl -L (https://raw.githubusercontent.com/pansir0290/vps_init/main/init.sh) -o init.sh && chmod +x init.sh && ./init.sh
+apt update -y && apt install -y curl && curl -L https://raw.githubusercontent.com/pansir0290/vps_init/main/init.sh -o init.sh && chmod +x init.sh && ./init.sh
