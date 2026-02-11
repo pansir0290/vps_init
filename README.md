@@ -21,3 +21,17 @@
 
 ```bash
 apt update -y && apt install -y curl && curl -L https://raw.githubusercontent.com/pansir0290/vps_init/main/init.sh -o init.sh && chmod +x init.sh && ./init.sh
+```
+## 🖥️ 系统支持 (OS Support)
+
+本脚本基于 `apt` 包管理器开发，目前仅支持以下系统：
+
+| 操作系统 | 是否支持 | 测试版本 |
+| :--- | :--- | :--- |
+| **Debian** | ✅ 支持 | 10, 11, 12 |
+| **Ubuntu** | ✅ 支持 | 20.04, 22.04, 24.04 |
+| **Armbian** | ✅ 支持 | 最新版 |
+| **CentOS / RHEL** | ❌ 不支持 | - |
+| **Alpine Linux** | ❌ 不支持 | - |
+
+> **注意**：请确保在干净的 **root** 环境下运行。
